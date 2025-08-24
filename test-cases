@@ -72,7 +72,6 @@
   expected-result: |
    Товар пропал из корзины. 
 ---
----
 - summary: |
    Возврат к покупкам
   requirement: |
