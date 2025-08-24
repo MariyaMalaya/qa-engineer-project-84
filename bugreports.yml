@@ -1,0 +1,23 @@
+- summary: |
+    Не загружается главная страница
+  environment: 
+  Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
+  steps-to-reproduce: |
+    В адресной строке ввести https://hexlet-products-store.vercel.app/
+  expected-result: |
+    Открытие главной страницы с товарами
+  actual-result: |
+    Открыта шапка страницы
+    Ошибка: Failed to load resource: net::ERR_NAME_NOT_RESOLVED random.css:1 
+   Failed to load resource: net::ERR_NAME_NOT_RESOLVED
+  ---
+  - summary: |
+    Короткое описание ошибки
+  environment: |
+    Ссылка на билд/коммит/версия ПО и всего окружения
+  steps-to-reproduce: |
+    Полный перечень шагов для воспроизведения и описание, на каком шаге произошла ошибка
+  expected-result: |
+    Какой результат должен быть без ошибки
+  actual-result: |
+    Какой результат получился на самом деле
