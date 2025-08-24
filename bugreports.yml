@@ -1,7 +1,7 @@
 - summary: |
     Не загружается главная страница
   environment: 
-  Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
+   Версия 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
   steps-to-reproduce: |
     В адресной строке ввести https://hexlet-products-store.vercel.app/
   expected-result: |
