@@ -1,1 +1,30 @@
-
+test-cases:
+  - summary: |
+     Регистрация пользователя
+    status: fail
+    ---
+  - summary: |
+     Проверка входа пользователя 
+     status: fail
+    ---
+  - summary: |
+      Добавление товара в корзину
+    status: pass
+   ---
+  - summary: |
+     Заказ товара
+    status: pass
+    ---
+  - summary: |
+      Удаление товара
+    status: pass
+   ---
+  - summary: |
+      Возврат к покупкам
+    status: pass
+    ---
+  - summary: |
+      фильтрация товара
+    status: fail
+ bugreports: 
+  
