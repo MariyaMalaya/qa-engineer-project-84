@@ -13,7 +13,7 @@
    Товар добавлен в корзину
 ---
 - summary: |
-    Успешный заказ товара
+  Заказ товара
   requirement: |
    При правильных данных, заказ уходит в обратотку.
   prerequisites:
@@ -94,6 +94,20 @@
   - Вводим в поле "до" значение
   expected-result: |
    Товар на странице отфильтрован по цене.
+
+   - summary: |
+   
+  requirement: |
+  
+  prerequisites:
+    
+  test-data: |
+ 
+  steps:
+ 
+  expected-result: |
+ 
+
 
 
 
