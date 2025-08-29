@@ -16,47 +16,47 @@
   Заказ товара
   requirement: |
    При правильных данных, заказ уходит в обратотку.
-  prerequisites:
+prerequisites:
     Открыта страница корзины
-  test-data: |
+ test-data: |
   Духи = 1
-  steps:
+steps:
     - Выбираем товары для заказа. 
     - Нажимаем " Оформить заказ"
-  expected-result: |
+expected-result: |
     Пользователь должен получить сообщение об успешном формировании заказа 
 ---
 - summary: |
-   Успешное удаление товаров из корзины
-  requirement: |
+   Успешное удаление товаров из корзин
+requirement: |
    Товар удаляется из корзины.
-  prerequisites:
+prerequisites:
     Открыта страница корзины
   test-data: |
   - Товар 
-  steps:
+ steps:
     - Нажимаем кнопку "Удалить" 
-  expected-result: |
+    expected-result: |
    Товар пропал из корзины. 
 ---
 - summary: |
    Возврат к покупкам
-  requirement: |
+requirement: |
    Клиент продолжает покупки
-  prerequisites:
+prerequisites:
     Открыта страница корзины
   test-data: |
   - Кнопка " продолжить покупки" 
   steps:
    - Нажимаем кнопку "Продолжить покупки" 
-  expected-result: |
+expected-result: |
    Пользователь возвращен на страницу с товаром.
 ---
 - summary: |
    успешная  Фильтрация товара
-  requirement: |
+requirement: |
    Фильтрация товара по категориям
-  prerequisites:
+prerequisites:
     Открыта страница с товарами
   test-data: |
   - Кнопка " Категория" 
@@ -68,9 +68,9 @@
 ---
 - summary: |
   Фильтр по производителю
-  requirement: |
+requirement: |
    Фильтрация товара по производителю
-  prerequisites:
+prerequisites:
     Открыта страница с товарами
   test-data: |
   - Вкладка " Производитель " 
@@ -82,9 +82,9 @@
 ---
 - summary: |
    Фильтр "Цена" 
-  requirement: |
+requirement: |
    Фильтрация товара по цене
-  prerequisites:
+prerequisites:
     Открыта страница с товарами
   test-data: |
   - Поле " Цена " 
@@ -92,7 +92,7 @@
   steps:
   - Вводим в поле "от" значения 
   - Вводим в поле "до" значение
-  expected-result: |
+expected-result: |
    Товар на странице отфильтрован по цене.
 
    - summary: |
