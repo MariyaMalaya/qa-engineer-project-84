@@ -1,12 +1,5 @@
 test-cases:
-  - summary: |
-     Регистрация пользователя
-    status: fail
-    ---
-  - summary: |
-     Проверка входа пользователя 
-     status: fail
-    ---
+
   - summary: |
       Добавление товара в корзину
     status: pass
@@ -28,40 +21,10 @@ test-cases:
     status: fail
  bugreports: 
  
-- summary: |
-    Не загружается главная страница
-  environment: 
-   Версия 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
-  steps-to-reproduce: |
-    В адресной строке ввести https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Отображение главной страницы с товарами
-  actual-result: |
-    Открыта шапка страницы
-    Ошибка: Failed to load resource: net::ERR_NAME_NOT_RESOLVED random.css:1 
-   Failed to load resource: net::ERR_NAME_NOT_RESOLVED
-  ---
-  - summary: |
-   не отображается форма регистрации
-  environment: |
-     Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
-  steps-to-reproduce: |
-   В адресной строке блаузера ввести https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Отображение в шапке вкладки "Регистрация"
-  actual-result: |
-   Отсутствие вкладки " Регистрация" 
+
+
    ---
- - summary: |
-   не отображается форма обратной связи
-  environment: |
-     Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
-  steps-to-reproduce: |
-   В адресной строке блаузера ввести https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-  expected-result: |
-    Отображение в шапке вкладки "Обратная связь"
-  actual-result: |
-   Отсутствие вкладки "Обратная связь" 
+
    ---
   - summary: |
     Поисковая строка
@@ -69,9 +32,9 @@ test-cases:
      Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
   steps-to-reproduce: |
    В адресной строке блаузера ввести https://products-store-git-v2bugfixes-hexlet-components.vercel.app/
-   В окне поиск ввести " Помада" 
+   В окне поиск ввести "Milk" 
   expected-result: |
-    Высветится товар " Помада" 
+    Высветится товар " Milk" 
   actual-result: |
     Появления сообщения "not found"
     ---
@@ -84,7 +47,7 @@ test-cases:
    В шапке выбрать вкладку " Language"
    В выпадающим окне кликнуть " Русский" 
   expected-result: |
-   Перевод сайта полностью на русский язык включая товары
+   Перевод сайта полностью на русский язык включая товары и описания
   actual-result: |
     Название и описание товаров не переводится
 
