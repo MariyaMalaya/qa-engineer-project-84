@@ -38,5 +38,10 @@
   - summary: |
  Развернутая информация о товаре
   status: pass
+  ---
+    - summary: |
+  Поиск товара
+  status: pass
+
 
     
