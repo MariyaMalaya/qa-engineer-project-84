@@ -96,18 +96,18 @@ prerequisites:
   - Вводим в поле "до" значение
 expected-result: |
    Товар на странице отфильтрован по цене.
-
-   - summary: |
+---
+ - summary: | Поисковая строка
    
-  requirement: |
+  requirement: | Поиск товара 
   
-  prerequisites:
-    
-  test-data: |
- 
+  prerequisites: Заходим на страницу с товаром магазина
+    В левом верхнем углу форма "поиск"-ставим курсор
+  test-data: | Форма поиска
   steps:
- 
+  - В форму поиска вводим название "Dior"
   expected-result: |
+  - На странице с товарами появляются духи "Dior"
  
 
 
