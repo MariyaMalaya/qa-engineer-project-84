@@ -22,4 +22,8 @@
    - summary: |
    Поиск по товару
   status: pass
+  ---
+   - summary: |
+   Развернутая информация о товаре
+  status: pass
   
