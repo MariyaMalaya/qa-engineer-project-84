@@ -19,4 +19,7 @@
    Фильтрация товара
   status: pass
   ---
+   - summary: |
+   Поиск по товару
+  status: pass
   
