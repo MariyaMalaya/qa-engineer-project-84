@@ -4,10 +4,6 @@ test-cases:
    Открытие карточки товара
     status: pass
 
-  - summary: |
-      Краткое описание тест-кейса. Например, проверка входа пользователя с существующими логином и паролем
-    status: fail
-
     - summary: |
    Поисковая строка 
     status: pass
@@ -19,6 +15,37 @@ test-cases:
      - summary: |
    Фильтрация товара по производителю
     status: pass
+
+    - summary: |
+   Фильтрация товара по Категории
+    status: pass
+
+     - summary: |
+   Фильтрация товара по двум направлениям одновременно
+    status: fail
+
+      - summary: |
+    Возврат к покупкам
+    status: pass
+
+     - summary: |
+   удаление товара из корщины
+    status: pass
+
+      - summary: |
+   удаление товара из корщины
+    status: pass
+
+      - summary: |
+   Заказ товара
+    status: pass
+
+      - summary: |
+   Добавление товара в корзину
+    status: pass
+
+    
+    
 
 
 
