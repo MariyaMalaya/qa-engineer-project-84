@@ -24,6 +24,7 @@ expected-result: |
 actual-result: |
     Название и описание товаров не переводится
 ---
+
 - summary: |
     Отсутствие изображения в кнопке " English"
 environment: |
