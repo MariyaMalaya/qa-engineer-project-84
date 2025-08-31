@@ -128,8 +128,6 @@ actual-result: |
 steps-to-reproduce: |
    В адресной строке блаузера ввести https://hexlet-products-store.vercel.app/
    На главной странице с товаром выбрать  "Essence Mascara Lash Princess" (или любой другой товар) добавить его в корзину. в количестве 2 шт
-   
-   
 expected-result: |
   Стоимость товара при сложении должна соответствовать правилу сложения
 actual-result: |
