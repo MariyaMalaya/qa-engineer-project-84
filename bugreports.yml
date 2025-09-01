@@ -1,15 +1,15 @@
 
   - summary: |
-    Поисковая строка
+     Поисковая строка
   environment: |
-     Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
+      Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
   steps-to-reproduce: |
-   В адресной строке блаузера ввести https://hexlet-products-store.vercel.app/
-   В окне поиск ввести "Milk" 
+     В адресной строке блаузера ввести https://hexlet-products-store.vercel.app/
+     В окне поиск ввести "Milk" 
   expected-result: |
-    Высветится товар milk c описанием 
+     Высветится товар milk c описанием 
   actual-result: |
-    Появления сообщения "not found"
+      Появления сообщения "not found"
 
  - summary: |
     Смена языка
