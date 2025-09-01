@@ -1,90 +1,80 @@
 
 test-cases:
-  - summary: |
-   Открытие карточки товара
-    status: pass
-
-  - summary: |
-   Поисковая строка 
-    status: pass
-
-  - summary: |
+ - summary: |
+    Открытие карточки товара
+   status: pass
+   
+ - summary: |
+    Поисковая строка 
+   status: pass
+   
+- summary: |
    Фильтрация товара по цене
-    status: pass
+  status: pass
 
-   - summary: |
-     Фильтрация товара по производителю
-    status: pass
-
-  - summary: |
+- summary: |
+   Фильтрация товара по производителю
+  status: pass 
+  
+- summary: |
    Фильтрация товара по Категории
-    status: pass
+  status: pass
 
-  - summary: |
+- summary: |
    Фильтрация товара по двум направлениям одновременно
-    status: fail
-
-   - summary: |
-    Возврат к покупкам
-    status: pass
-
- - summary: |
+  status: fail
+  
+- summary: |
+   Возврат к покупкам
+  status: pass
+  
+- summary: |
    удаление товара из корщины
-    status: pass
----
- - summary: |
-   удаление товара из корщины
-    status: pass
+  status: pass
 
-  - summary: |
+- summary: |
+   удаление товара из корщины
+  status: pass
+
+- summary: |
    Заказ товара
-    status: pass
+  status: pass
 
-  - summary: |
+- summary: |
    Добавление товара в корзину
-    status: pass
-
-  - summary: |
+  status: pass
+  
+- summary: |
    Изменение языка страницы, а так же перевод описания товаров на русский
-    status: fail
+  status: fail
 
 
 
 bugreports:
 
-  - summary: |
-      Увеличение поле "цена" при вводе первой цифры
-    environment: |  Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
-    steps-to-reproduce: |
-      Зайти на главную страницу магазина
-      В поле цена. ввести от: 0 до 1
-    expected-result: |
-     Масштаб поле "цена" не изменен, появившиеся карточка товара не изменена в форме
-    actual-result: |
-     В момент вывода цифры 1 в поле "до". удлиняется окно с полем "до", а карточка найденого товара имеет суженную форму
-     
-  - summary: |
+
+ - summary: |
      Точка в поле фильтр по цене.
     environment: |
        Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
     steps-to-reproduce: |
       Зайти на главную страницу магазина
       В поле цена. ввести от: 0 до 10.
-     expected-result: |
+    expected-result: |
      На главной странице товары по цене  до 10$ 
     actual-result: |
       На странице находятся товары в хаотичной цене. т.е до 10$ и после 10$
-
-   - summary: |
+      
+- summary: |
      Выбор товара по наличию и фильтр цена.
-    environment: |
+   environment: |
        Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
-    steps-to-reproduce: |
+   steps-to-reproduce: |
       Зайти на главную страницу магазина
       В поле " наличие товара" убрать галочку
-     expected-result: |
+   expected-result: |
      Должны остаться товары в статусе " не в наличии" 
-    actual-result: |
+   actual-result: |
      сверху таблицы  с товарами пропалает кнопка "Next"
 
 
