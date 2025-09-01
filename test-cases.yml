@@ -14,7 +14,7 @@
 
 - summary: |
    Заказ товара
-   requirement: |
+  requirement: |
    При наличии товара в корзине, заказ уходит в обратотку.
   prerequisites:
    Заходим на главную страницу магазина.https://hexlet-products-store.vercel.app/
