@@ -2,47 +2,47 @@
   - summary: |
    Добавление товара в корзину
   status: pass
-  ---
+  
   - summary: |
     Заказ товара
   status: pass
-  ---
+  
   - summary: |
    Удаление товаров из корзины
   status: pass
-  ---
+  
   - summary: |
     возврат к покупкам
   status: pass
-  ---
+  
   - summary: |
    Фильтрация товара
   status: pass
-  ---
+  
    - summary: |
    Поиск по товару
   status: pass
-  ---
+  
    - summary: |
    Развернутая информация о товаре
   status: pass
-  ---
+  
   - summary: |
   Фильтрация товара по производителю
   status: pass
-  ---
+  
   - summary: |
   Фильтрация товара по цене
   status: pass
-  ---
+  
   - summary: |
  Развернутая информация о товаре
   status: pass
-  ---
+  
     - summary: |
   Поиск товара
   status: pass
-  ---
+  
     - summary: |
   Фильтрация товара по двум направлениям одновременно
   status: pass
