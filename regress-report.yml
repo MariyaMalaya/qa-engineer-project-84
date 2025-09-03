@@ -11,7 +11,7 @@ test-cases:
     Добавление разных товаров в корзину
    status: pass
    
- - summary: |
+- summary: |
     Фильтрация товара по цене
    status: pass
 
@@ -19,37 +19,65 @@ test-cases:
    Заказ товара
    status: pass 
   
- - summary: |
+- summary: |
     Фильтрация товара по Категории
    status: fail
 
- - summary: |
+- summary: |
     Фильтрация товара по двум направлениям одновременно
    status: fail
   
- - summary: |
+- summary: |
     Возврат к покупкам
    status: pass
   
- - summary: |
-    удаление товара из корщины
+- summary: |
+    удаление товара из корзины
    status: pass
 
- - summary: |
+- summary: |
     удаление товара из корщины
    status: pass
-
- - summary: |
+   
+- summary: |
     Заказ товара
    status: pass
 
- - summary: |
+- summary: |
     Добавление товара в корзину
    status: pass
-  
- - summary: |
-    Изменение языка страницы, а так же перевод описания товаров на русский
+   
+- summary: |
+    Успешное удаление товаров из корзины
+   status: pass
+- summary: |
+    Очистка корзины
+   status: pass 
+   
+- summary: |
+    Кнопка "возврат к покупкам"
+   status: pass
+
+- summary: |
+    Оформление заказа
    status: fail
+
+- summary: |
+   Оплата товара
+   status: pass  
+
+- summary: |
+    Фильтр товара по категории
+   status: pass   
+   
+   
+
+   
+
+- summary: |
+    Изменение языка страницы.
+   status: fail   
+ 
 
 
 
