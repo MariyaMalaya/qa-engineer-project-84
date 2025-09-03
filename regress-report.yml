@@ -86,21 +86,6 @@ test-cases:
 - summary: |
     Выбор языка
    status: fail   
-   
-   
-
-   
-     
-     
-
-   
-
-- summary: |
-    Изменение языка страницы.
-   status: fail   
- 
-
-
 
 bugreports:
  - summary: |
