@@ -1,6 +1,14 @@
 - summary: |
    Добавление товара в корзину
   status: pass
+
+- summary: |
+   Добавление одинаковых товаров в корзину
+  status: pass
+  
+- summary: |
+   Добавление разных товаров в корзину
+  status: pass
   
 - summary: |
    Заказ товара
@@ -9,33 +17,53 @@
 - summary: |
    Удаление товаров из корзины
   status: pass
-  
+
 - summary: |
-   возврат к покупкам
+   Очистка корзины
   status: pass
   
 - summary: |
-   Фильтрация товара
+   Кнопка "возврат к покупкам"
   status: pass
   
+- summary: |
+   Оформление заказа
+  status: pass
+  
+- summary: |
+   Оплата товара
+  status: pass
+  
+- summary: |
+   Фильтрация товара по категории
+  status: pass
+  
+- summary: |
+   Фильтр товара по производителю
+  status: pass
+
 - summary: |
    Поиск по товару
   status: pass
-  
-- summary: |
-   Развернутая информация о товаре
-  status: fail
-  
-- summary: |
-   Фильтрация товара по производителю
-  status: pass
-  
+   
 - summary: |
    Фильтрация товара по цене
   status: pass
+
+- summary: |
+   Фильтрация товара по цене негатив тест
+  status: pass
+
+- summary: |
+   Фильтр товара " В наличии"
+  status: pass
+
+- summary: |
+   Фильтр товара по хэштегу
+  status: pass
    
 - summary: |
-   Поиск товара
+   Поисковая строка
   status: pass
    
 - summary: |
@@ -43,5 +71,22 @@
   status: pass   
 
   - summary: |
-   
+    Открытие карточки товара
+  status: fail
+
+- summary: |
+   Отображение товаров в каталоге
   status: pass
+
+- summary: |
+   Навигация по магазину
+  status: pass
+
+- summary: |
+   Выбор языка
+  status: pass
+
+  
+
+
+
