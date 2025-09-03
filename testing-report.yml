@@ -12,7 +12,7 @@
   
 - summary: |
    Заказ товара
-  status: pass
+  status: fail
   
 - summary: |
    Удаление товаров из корзины
