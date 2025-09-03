@@ -2,6 +2,10 @@ test-cases:
  - summary: |
     Открытие карточки товара
    status: pass
+
+- summary: |
+    Добавление двух одинаковых товаров
+   status: pass
    
  - summary: |
     Поисковая строка 
