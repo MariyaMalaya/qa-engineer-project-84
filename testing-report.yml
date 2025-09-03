@@ -24,7 +24,7 @@
   
 - summary: |
    Развернутая информация о товаре
-  status: pass
+  status: fail
   
 - summary: |
    Фильтрация товара по производителю
@@ -33,11 +33,7 @@
 - summary: |
    Фильтрация товара по цене
   status: pass
-  
-- summary: |
-   Развернутая информация о товаре
-  status: pass
-  
+   
 - summary: |
    Поиск товара
   status: pass
@@ -45,3 +41,7 @@
 - summary: |
    Фильтрация товара по двум направлениям одновременно
   status: pass   
+
+  - summary: |
+   
+  status: pass
