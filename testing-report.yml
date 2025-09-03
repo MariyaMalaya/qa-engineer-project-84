@@ -85,6 +85,9 @@
 - summary: |
    Выбор языка
   status: fail
+-summary: |
+  Работа с магазином на моб.устройствах
+  statys: fail
 
   
 
