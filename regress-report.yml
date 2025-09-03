@@ -4,7 +4,7 @@ test-cases:
    status: pass
 
 - summary: |
-    Добавление одинаковых товаров
+    Добавление одинаковых товаров в корзину
    status: pass
    
 - summary: |
@@ -12,48 +12,17 @@ test-cases:
    status: pass
    
 - summary: |
-    Фильтрация товара по цене
-   status: pass
-
-- summary: |
    Заказ товара
    status: pass 
   
 - summary: |
-    Фильтрация товара по Категории
-   status: fail
-
-- summary: |
-    Фильтрация товара по двум направлениям одновременно
-   status: fail
-  
-- summary: |
-    Возврат к покупкам
-   status: pass
-  
-- summary: |
-    удаление товара из корзины
-   status: pass
-
-- summary: |
-    удаление товара из корщины
+   Успешное удаление товара из корзины
    status: pass
    
-- summary: |
-    Заказ товара
-   status: pass
-
-- summary: |
-    Добавление товара в корзину
-   status: pass
-   
-- summary: |
-    Успешное удаление товаров из корзины
-   status: pass
 - summary: |
     Очистка корзины
-   status: pass 
-   
+   status: pass
+ 
 - summary: |
     Кнопка "возврат к покупкам"
    status: pass
@@ -68,9 +37,60 @@ test-cases:
 
 - summary: |
     Фильтр товара по категории
+   status: pass
+   
+- summary: |
+    Фильтр товара по производителю
+   status: pass
+   
+- summary: |
+    Фильтр товара по цене
+   status: pass 
+ -------------------------  
+- summary: |
+    Фильтр товара по цене (ввод не корректных данных)
+   status: аф
+ - summary: |
+    Фильтр товара " В наличии"
+   status: pass
+   
+- summary: |
+    Фильтр товара по хэштегу
+   status: pass
+   
+- summary: |
+    Поисковая строка
+   status: pass  
+   
+- summary: |
+    Поисковая строка ( не корректные значения)
+   status: pass   
+
+- summary: |
+   Открытие карточки товара
+   status: pass   
+
+- summary: |
+   Фильтрауия товара по двум направлениям одновременно
+   status: pass 
+   
+- summary: |
+    Отображение товаров в каталоге
    status: pass   
    
+- summary: |
+    Навигация по магазину
+   status: pass 
    
+- summary: |
+    Выбор языка
+   status: fail   
+   
+   
+
+   
+     
+     
 
    
 
