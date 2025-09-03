@@ -20,6 +20,7 @@
    Заходим на главную страницу магазина.https://hexlet-products-store.vercel.app/
    В шапке, справа значок " Корзина"- клик. https://hexlet-products-store.vercel.app/cart
     Открывается страница корзины с выбранными товарами
+    В корзине есть товар
   test-data: |
    Духи = 1
   steps:
