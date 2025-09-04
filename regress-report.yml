@@ -85,7 +85,20 @@ test-cases:
    
 - summary: |
     Выбор языка
+   status: fail  
+   
+- summary: |
+    Работа с магазином на моб.устроиствах
    status: fail   
+- summary: |
+    Правильная работа магазина в разных веб-обозревателях
+   status: pass   
+   
+- summary: |
+    Применение скидки ко всему ассортименту
+   status: fail   
+   
+   
 
 bugreports:
  - summary: |
