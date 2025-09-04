@@ -85,9 +85,13 @@
 - summary: |
    Выбор языка
   status: fail
--summary: |
+  
+- summary: |
   Работа с магазином на моб.устройствах
   statys: fail
+- summary: |
+   Работа сайта в разных веб-обозревателях
+   statys: pass
 
   
 
