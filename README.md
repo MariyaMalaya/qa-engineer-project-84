@@ -1,2 +1,13 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/MariyaMalaya/qa-engineer-project-84/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/MariyaMalaya/qa-engineer-project-84/actions)
+
+Тестирования интернет-магазина https://hexlet-products-store.vercel.app
+
+Файлы:
+about.yml - описание профессиональных навыков 
+requirements.yml -описание требований проекта.
+test-cases.yml - тест-кейсы для проведения тестирования
+testing-report.yml - результат прохождения тест-кейсов с отметкой (pass/fails)
+bugreports.yml -описание дефектов и шагов по их воспроизведению
+regress-report.yml - отчет о проведенном регрессионном тестировании и новые баг-репорты
+Скрины багов - визуализация баг-репортов.
