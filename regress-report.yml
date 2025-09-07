@@ -77,7 +77,7 @@ test-cases:
    
 - summary: |
     Отображение товаров в каталоге
-   status: pass   
+   status: fail   
    
 - summary: |
     Навигация по магазину
@@ -89,7 +89,8 @@ test-cases:
    
 - summary: |
     Адаптация сайта к моб.версии
-   status: fail   
+   status: fail
+   
 - summary: |
     Правильная работа магазина в разных веб-обозревателях
    status: pass   
