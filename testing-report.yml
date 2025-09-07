@@ -83,6 +83,10 @@
   status: pass
 
 - summary: |
+   Вкладка язык
+  status: fail
+
+- summary: |
    Выбор языка
   status: fail
   
