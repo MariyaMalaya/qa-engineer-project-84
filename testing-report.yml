@@ -76,7 +76,7 @@
 
 - summary: |
    Отображение товаров в каталоге
-  status: pass
+  status: fail
 
 - summary: |
    Навигация по магазину
