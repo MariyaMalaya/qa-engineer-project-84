@@ -84,7 +84,7 @@ test-cases:
    status: pass 
    
 - summary: |
-    Перевод с EN на RU
+    Перевод с английского на русский язык
    status: fail  
 
 - summary: |
