@@ -87,7 +87,7 @@ test-cases:
     Перевод с EN на RU
    status: fail  
 
-  - summary: |
+- summary: |
    Кнопка "выбор языка"
    status: fail  
    
@@ -101,7 +101,11 @@ test-cases:
    
 - summary: |
     Применение скидки ко всему ассортименту
-   status: fail   
+   status: fail  
+
+- summary: |  
+   Окно заказа товара
+    status: fail
    
    
 
