@@ -1,5 +1,5 @@
 - summary: |
-    Поиск товара происходит не по всему магазину.
+    Фильтры товара работают не по всему магазину.
   environment: |
    Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
   steps-to-reproduce: |
@@ -8,7 +8,8 @@
   expected-result: |
      Высветится товар milk c описанием 
   actual-result: |
-      Появления сообщения "not found"
+    Появления сообщения "not found"
+    https://github.com/MariyaMalaya/qa-engineer-project-84/blob/main/C%D0%BA%D1%80%D0%B8%D0%BD%D1%8B%20%D0%B1%D0%B0%D0%B3%D0%BE%D0%B2/%D0%9E%D1%82%D1%81%D1%83%D1%82%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D1%84%D0%B8%D0%BB%D1%8C%D1%82%D1%80%D0%B0%20%D0%BF%D1%80%D0%BE%D0%B8-%D0%B2%D0%B0.PNG?raw=true
 
 - summary: |
     Кнопка " Выбор языка"
@@ -51,7 +52,7 @@
     GET https://dummyjson.com/http/500/failed 500 (Internal Server Error)
 
 - summary: |
-    Не корректная работа фильтра по производителю
+    Не корректная работа фильтров.
   environment: |
     Версия: 139.0.7258.139 (Официальная сборка) (64 бит) Win10 22H2
   steps-to-reproduce: |
