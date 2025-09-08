@@ -56,7 +56,7 @@
 
 - summary: |
    Фильтр товара " В наличии"
-  status: pass
+  status: fail
 
 - summary: |
    Фильтр товара по хэштегу
