@@ -83,11 +83,11 @@
   status: pass
 
 - summary: |
-   Перевод с EN на RU
+   Перевод с английского на русский язык
   status: fail
 
 - summary: |
-   Перевод с RU на EN
+   Перевод с русского на английский
   status: pass
 
 - summary: |
