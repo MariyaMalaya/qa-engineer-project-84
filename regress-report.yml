@@ -73,7 +73,7 @@ test-cases:
 
 - summary: |
    Фильтрация товара по двум направлениям одновременно
-   status: pass 
+   status: fail
    
 - summary: |
     Отображение товаров в каталоге
