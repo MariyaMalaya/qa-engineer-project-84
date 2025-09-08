@@ -44,7 +44,7 @@
 
 - summary: |
    Поиск по товару
-  status: pass
+  status: fail
    
 - summary: |
    Фильтрация товара по цене
