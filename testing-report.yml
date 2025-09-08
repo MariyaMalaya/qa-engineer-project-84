@@ -70,7 +70,7 @@
    Фильтрация товара по двум направлениям одновременно
   status: pass   
 
-  - summary: |
+- summary: |
     Открытие карточки товара
   status: fail
 
@@ -83,19 +83,31 @@
   status: pass
 
 - summary: |
-   Вкладка язык
+   Перевод с EN на RU
   status: fail
 
 - summary: |
-   Выбор языка
+   Перевод с RU на EN
+  status: pass
+
+- summary: |
+   Вкладка язык
   status: fail
   
 - summary: |
   Адаптация сайта к моб.версии
   statys: fail
+  
 - summary: |
    Работа сайта в разных веб-обозревателях
    statys: pass
+   
+- summary: |
+   Окно заказа
+   statys: fail
+
+   
+
 
   
 
