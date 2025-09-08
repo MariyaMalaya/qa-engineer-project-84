@@ -41,7 +41,7 @@ test-cases:
    
 - summary: |
     Фильтр товара по производителю
-   status: pass
+   status: fail
    
 - summary: |
     Фильтр товара по цене
