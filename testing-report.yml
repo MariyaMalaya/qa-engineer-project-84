@@ -40,7 +40,7 @@
   
 - summary: |
    Фильтр товара по производителю
-  status: pass
+  status: fail
 
 - summary: |
    Поиск по товару
